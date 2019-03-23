@@ -1,0 +1,120 @@
+@import "bourbon/_bourbon"
+@import "blocks/_vars"
+@import "blocks/_sprite-png"
+
+/*!
+ * Custom Style CSS START
+ * Copyright 2018-2019 The LASCH-frontend Authors (https://github.com/JackPot777)
+ */
+
+// PAGE COMPONENTS START //
+@import "blocks/_header"
+
+body
+	font-family: $default-font
+	font-weight: normal
+	font-size: $font-size
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialised
+
+// PRELOADER START
+#page-preloader
+	position: fixed
+	left: 0
+	top: 0
+	right: 0
+	bottom: 0
+	z-index: 9999
+	background: #fff
+
+.contpre
+	width: 200px
+	height: 74px
+	position: absolute
+	left: 50%
+	top: 48%
+	margin-left: -120px
+	margin-top: -60px
+
+#circleG
+	width: 100px
+	margin: auto
+	position: relative
+	height: 75px
+
+.circleG
+	opacity: 0
+	position: absolute
+	color: #000
+	line-height: 75px
+	font-size: 75px
+	margin-left: 17px
+	width: 100%
+	text-align: center
+	background: #fff
+	animation: bounce_circleG 1.2s linear infinite 0s
+
+#circleG_2
+	animation-delay: .2s
+
+#circleG_3
+	animation-delay: .4s
+
+#circleG_4
+	animation-delay: .6s
+
+#circleG_5
+	animation-delay: .8s
+
+#circleG_6
+	animation-delay: 1s
+
+@keyframes bounce_circleG
+	0%,
+	15%
+		opacity: 1
+	30%
+		opacity: 0
+	100%
+		opacity: 0
+// PRELOADER END
+
+#section
+	height: 100%
+	max-width: 100%
+	text-align: center
+	margin: auto
+	background-color: #f2f2f2
+	& p
+		font-size: $font-size-bigger
+		font-weight: 600
+	& img
+		width: 50%
+		margin: 2.7%
+	& .sprite_png,
+	.sprite_svg
+		margin-bottom: 1%
+
+.icon
+	display: inline-block
+
+.icon-chrome
+	@include sprite($chrome)
+
+.icon-placeholder
+	@include sprite($placeholder)
+
+.custom-class
+	height: 14px
+	width: 14px
+
+@import "blocks/_footer"
+// PAGE COMPONENTS START //
+
+@import "blocks/media" // Always at the end
+/*!
+ * Custom Style CSS END
+ * Copyright 2018-2019 The LASCH-frontend Authors (https://github.com/JackPot777)
+ */

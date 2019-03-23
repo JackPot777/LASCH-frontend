@@ -1,0 +1,129 @@
+@import "../bourbon/_bourbon"
+@import "vars"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Extra Large Devices, Wide Screens */
+@mixin desktop_xl_1200_down
+
+@media only screen and (max-width : 1199px)
+	@include desktop_xl_1200_down
+/*============================================*/
+/* Large Devices, Desktops */
+@mixin desktop_lg_992_down
+
+@media only screen and (max-width : 991px)
+	@include desktop_lg_992_down
+/*============================================*/
+/* Medium Devices, Tablets */
+@mixin tablets_md_768_down
+
+@media only screen and (max-width : 767px)
+	@include tablets_md_768_down
+/*============================================*/
+/* Small Devices, Tablets */
+@mixin tablets_sm_576_down
+
+@media only screen and (max-width : 575px)
+	@include tablets_sm_576_down
+/*============================================*/
+@mixin mobile_xs_570_down
+
+@media only screen and (max-width : 570px)
+	@include mobile_xs_570_down
+/*============================================*/
+@mixin mobile_xs_544_down
+
+@media only screen and (max-width : 544px)
+	@include mobile_xs_544_down
+/*============================================*/
+@mixin mobile_xs_511_down
+
+@media only screen and (max-width : 511px)
+	@include mobile_xs_511_down
+/*============================================*/
+@mixin mobile_xs_510_down
+
+@media only screen and (max-width : 510px)
+	@include mobile_xs_510_down
+/*============================================*/
+@mixin mobile_xs_498_down
+
+@media only screen and (max-width : 498px)
+	@include mobile_xs_498_down
+/* Extra Small Devices, Phones */
+@mixin mobile_xs_480_down
+
+@media only screen and (max-width : 480px)
+	@include mobile_xs_480_down
+/*============================================*/
+@mixin mobile_xs_460_down
+
+@media only screen and (max-width : 460px)
+	@include mobile_xs_460_down
+/*============================================*/
+@mixin mobile_xs_430_down
+
+@media only screen and (max-width : 430px)
+	@include mobile_xs_430_down
+/*============================================*/
+@mixin mobile_xs_400_down
+
+@media only screen and (max-width : 400px)
+	@include mobile_xs_400_down
+/*============================================*/
+@mixin mobile_xs_370_down
+
+@media only screen and (max-width : 370px)
+	@include mobile_xs_370_down
+/*============================================*/
+@mixin mobile_xs_340_down
+
+@media only screen and (max-width : 340px)
+	@include mobile_xs_340_down
+/* Custom, iPhone Retina */
+@mixin mobile_xs_320_down
+
+@media only screen and (max-width : 320px)
+	@include mobile_xs_320_down
+
+/*==============================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@mixin mobile_xs_320_up
+
+@media only screen and (min-width : 320px)
+	@include mobile_xs_320_up
+
+/* Extra Small Devices, Phones */
+@mixin mobile_xs_480_up
+
+@media only screen and (min-width : 480px)
+	@include mobile_xs_480_up
+
+/* Small Devices, Tablets */
+@mixin tablets_sm_576_up
+
+@media only screen and (min-width : 576px)
+	@include tablets_sm_576_up
+
+/* Medium Devices, Tablets */
+@mixin tablets_md_768_up
+
+@media only screen and (min-width : 768px)
+	@include tablets_md_768_up
+
+/* Large Devices, Desktops */
+@mixin desktop_lg_992_up
+
+@media only screen and (min-width : 992px)
+	@include desktop_lg_992_up
+
+/* Extra Large Devices, Wide Screens */
+@mixin desktop_xl_1200_up
+
+@media only screen and (min-width : 1200px)
+	@include desktop_xl_1200_up
+/*==============================================*/

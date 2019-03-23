@@ -1,0 +1,54 @@
+{
+  "name": "LASCH-frontend",
+  "version": "1.0.0",
+  "description": "Start Project Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "LASCH agency",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackPot777/LASCH-frontend"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "browser-sync": "latest",
+    "css-mqpacker": "latest",
+    "del": "latest",
+    "gulp": "^4.0.0",
+    "gulp-cache": "latest",
+    "gulp-cheerio": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-file-include": "latest",
+    "gulp-gh-pages": "latest",
+    "gulp-html-beautify": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-jshint": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-postcss": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-rsync": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-svgmin": "latest",
+    "gulp-svgstore": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "gulp.spritesmith": "latest",
+    "imagemin-pngquant": "latest",
+    "merge-stream": "latest",
+    "sort-css-media-queries": "latest",
+    "vinyl-buffer": "latest"
+  },
+  "dependencies": {
+    "del": "latest"
+  }
+}

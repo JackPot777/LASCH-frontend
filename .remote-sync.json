@@ -1,0 +1,19 @@
+{
+    "transport": "ftp", // "sftp"
+    "hostname": "example.com",
+    "port": 21, // 21 FTP, 22 SFTP
+    "secure": false, // true (if 22 SFTP)
+    "uploadOnSave": true,
+    "deleteLocal": false,
+    "target": "/root path/to your local/project folder/",
+    "username": "ftp_username",
+    "password": "ftp_passwd",
+    "logger": {
+      "title": "Remote Sync"
+    },
+    "ignore": [
+        ".remote-sync.json",
+        ".git/**"
+    ],
+    "watch":[]
+}
